@@ -84,6 +84,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 - [Samet DANACI](https://github.com/dnctms)
+- [Matheus Marques](https://github.com/mathmarques) Thank you
 
 ## License
 

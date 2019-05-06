@@ -6,9 +6,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Matheus Marques - Samet DANACI",
-            "email": "matheusocmarques@gmail.com - samet.danaci@penkalas.com",
-            "homepage": "http://matheusmarques.com - https://penkalas.com"
+            "name": "Samet DANACI",
+            "email": "samet.danaci@penkalas.com",
+            "homepage": "https://penkalas.com"
         }
     ],
     "require": {
