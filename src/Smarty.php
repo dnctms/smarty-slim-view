@@ -2,7 +2,10 @@
 
 namespace Slim\Views;
 
+use ArrayAccess;
+use ArrayIterator;
 use Psr\Http\Message\ResponseInterface;
+use Slim\Http\Uri;
 use Slim\Interfaces\RouterInterface;
 use SmartyException;
 
@@ -15,8 +18,9 @@ use SmartyException;
  *
  * @link http://www.smarty.net/
  */
-class Smarty implements \ArrayAccess
+class Smarty implements ArrayAccess
 {
+
     /**
      * Smarty instance
      *
@@ -68,7 +72,7 @@ class Smarty implements \ArrayAccess
      * Method to add the Slim plugins to Smarty
      *
      * @param RouterInterface $router
-     * @param string|\Slim\Http\Uri $uri
+     * @param string|Uri $uri
      *
      * @throws SmartyException
      * @deprecated Deprecated since version 1.1.0. Use registerPlugin instead. See README for more info.
@@ -222,10 +226,10 @@ class Smarty implements \ArrayAccess
     /**
      * Get collection iterator
      *
-     * @return \ArrayIterator
+     * @return ArrayIterator
      */
     public function getIterator()
     {
-        return new \ArrayIterator($this->defaultVariables);
+        return new ArrayIterator($this->defaultVariables);
     }
 }
