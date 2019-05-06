@@ -6,6 +6,7 @@ use Smarty_Internal_Template;
 
 class SmartyPlugins
 {
+
     /**
      * @var RouterInterface
      */
