@@ -14,9 +14,15 @@
   "license": "MIT",
   "authors": [
     {
+      "name": "Matheus Marques",
+      "email": "matheusocmarques@gmail.com",
+      "homepage": "http://matheusmarques.com"
+    },
+    {
       "name": "Samet DANACI",
       "email": "samet.danaci@penkalas.com",
-      "homepage": "https://penkalas.com"
+      "homepage": "https://penkalas.com",
+      "role": "Developer"
     }
   ],
   "require": {
