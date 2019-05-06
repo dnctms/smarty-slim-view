@@ -20,7 +20,6 @@ use SmartyException;
  */
 class Smarty implements ArrayAccess
 {
-
     /**
      * Smarty instance
      *
