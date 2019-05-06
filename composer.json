@@ -1,5 +1,5 @@
 {
-  "name": "dnctms/smarty-view",
+  "name": "dnctms/smarty-slim-view",
   "type": "library",
   "description": "Slim Framework 3 view helper built on top of the Smarty templating component",
   "keywords": [
